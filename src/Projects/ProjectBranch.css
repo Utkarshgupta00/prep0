@@ -1,0 +1,40 @@
+.Project_subject{
+    height : 30px;
+    font-size : 30px;
+    text-align : center;
+    padding : 10px;
+    background : black;
+    color : rgb(255, 255, 255);
+}
+.project_box{
+    
+    background : rgb(0, 0, 0);
+    padding : 20px;
+    height : 500px;
+    overflow-y : auto;
+
+}
+
+.project_card{
+    margin : 20px;
+    border-radius : 50px;
+    height : auto;
+    padding : 20px;
+    color : rgb(0, 187, 255);
+    font-size : 15px;
+    font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background : rgb(0, 0, 0);
+    box-shadow : -3px 3px 3px rgb(0, 174, 243);
+    text-align: center;
+    transition : 0.3s ease;
+    
+}
+.project_card:hover{
+    color : white;
+    box-shadow : 3px 3px 3px rgb(255, 0, 0);
+    font-size : 13px;
+    
+}
+.project_card a{
+    color : rgb(9, 214, 255);
+}

@@ -1,0 +1,69 @@
+.wrapper{
+    display : flex;
+    height : auto;
+    justify-content: center;
+    overflow-y : scroll;
+    width : 100%;
+    padding-top : 2rem;
+    background : black;
+}
+.faq_heading{
+    text-align: center;
+    width : 100%;
+    height : 50px;
+    background : black;
+    padding-top : 20px;
+    color : rgb(255, 255, 255);
+}
+.accordian{
+    width : 60%;
+}
+.item{
+    margin-bottom : 1rem;
+    padding : 20px 10px;
+    color : white;
+    background : black;
+    border-bottom : 2px solid white;
+    cursor : pointer;
+}
+.item h2{
+    font-size : 17px; 
+    
+}
+.title{
+    display : flex;
+    justify-content: space-between;
+    align-items : center;
+}
+.content{
+    max-height : 0;
+    overflow : hidden;
+    transition : all 0.5 ease cubic-bezier(0,1,0,1);
+}
+.content h3{
+    font-size : 13px;
+    padding : 0.4rem;
+    font-weight : lighter;
+}
+.content.show{
+    height : auto;
+    max-height : 9999px;
+    transition : all 0.5 ease cubic-bezier(0,1,0,1);
+}
+
+@media screen and (max-width:480px){
+.wrapper{
+    height : auto;
+}
+
+.accordian{
+    width : 80%;
+}
+.item h2{
+    font-size : 15px;
+}
+.content h3{
+    font-size : 10px;
+}
+
+}

@@ -1,0 +1,89 @@
+.Freq_card_box{
+    background : rgb(0, 0, 0);
+    height : 50px;
+    margin : 10px 40px;
+    display : flex;
+    overflow : hidden;
+    border-radius: 10px;
+
+}
+.Freq_card_left{
+    margin-top : 5px;
+    text-align: center;
+    color : white;
+    background : rgb(0, 0, 0);
+    box-shadow : 1px 1px rgb(10, 87, 97);
+    width : 5%;
+    height : 50%;
+    border-radius: 50%;
+    margin : auto;
+    padding : 19px;
+    font-size : 25px;
+    font-family :Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* .Freq_card_left:hover{
+    box-shadow :1px 1px red;
+
+} */
+.Freq_card_right:hover .Freq_card_left{
+
+    color : red;
+
+}
+.Freq_card_right{
+    justify-content: space-between;
+    display : flex;
+    letter-spacing : 2px;
+    color : white;
+    border-radius: 10px;
+    background : rgb(0, 0, 0);
+    height : 100%;
+    width : 70%;
+    text-align : center;
+    padding : 15px;
+}
+.Freq_card_right:hover{
+    color : aqua;
+    font-size : 14px;
+}
+.FrequentCardLink{
+    color : white;
+}
+.FrequentCardLink:hover{
+    color : aquamarine;
+    cursor : pointer;
+}
+
+
+
+
+
+@media screen and (max-width : 480px){
+    .Freq_card_box{
+        margin : 13px 5px;    
+    }
+    .Freq_card_left{
+
+        width : 13%;
+        height : 90%;
+        padding : 5px;
+    
+    }
+    
+    .Freq_card_right{
+        margin-left : 0px;
+        padding-top : px;
+        padding : 15px 0px;
+        font-size: 10px;
+        letter-spacing : 1px;
+    }
+    .Freq_card_right:hover{
+        font-size : 12px;
+    }
+    .Freq_card_right:hover .Freq_card_left{
+        box-shadow :1px 1px red;
+        color : red;
+
+    }
+
+}

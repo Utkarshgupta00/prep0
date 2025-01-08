@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing : border-box;
+    font-family : 'Poppins', sans-serif;
+}
+.contact_heading{
+    background : rgb(8, 8, 8);
+    padding : 10px;
+    text-align : center;
+    font-family :'Times New Roman', Times, serif;
+    color : white;
+
+}
+.contact_page{
+    /* width : 100%;
+    align-items : center;
+    height : 500px;
+    background : url(../../public/image/contact_background.png);
+    background-size : 100% 100%;
+    padding-top : 5%;
+    margin-bottom : 20px;
+    overflow-y: scroll; */
+
+   background : url(../../public/image/contact_background.png);
+    overflow-x : scroll;
+    background-size : 100% 100%;
+    height : 520px;
+ 
+
+
+}
+
+.tap_to_scroll{
+    height : 20px;
+    margin-top : 10px;
+    color : rgb(255, 255, 255);
+    font-size : 20px;
+    font-weight: bold;
+    font-family : Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width : 100%;
+    text-align: center;
+    z-index : 0;
+
+
+
+}
+.contact_slides_flex{
+    display : flex;
+
+
+}
+
+.contact_container{
+    position : relative;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    max-width : 1200px;
+    flex-wrap : wrap;
+    z-index : 1;
+}
+.contact_container .contact_card{
+    position : relative;
+    width : 280px;
+    height : 400px;
+    margin : 30px;
+    padding-top : 30px;
+    box-shadow : 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius : 15px;
+    background : rgba(255,255,255,0.1);
+    overflow : hidden;
+    display: flex;
+    justify-content : center;
+    align-items: center;
+    border-top : 1px solid rgba(255,255,255,0.1);
+    border-left : 1px solid rgba(255,255,255,0.1);
+    backdrop-filter : blur(5px);
+}
+.contact_container .contact_card .contact_content{
+    padding : 20px;
+    text-align : center;
+    transition: 0.5s;
+    transform : translateY(0px);
+    opacity : 1;
+}
+
+.contact_container .contact_card:hover .contact_content{
+    transform : translateY(0px);
+    opacity : 1;
+}
+.contact_container .contact_card .contact_content h2{
+    position : absolute;
+    top : -80px;
+    right : 20px;
+    font-size : 5em;
+    color : rgba(255, 251, 251, 0.15);
+    pointer-events: none;
+}
+.contact_container .contact_card .contact_content h3{
+    font-size : 1.8rem;
+    color : #ffffff;
+    text-shadow : 1px 1px 1px black;
+    z-index: 1;
+}
+.contact_container .contact_card .contact_content p{
+    margin-top: 5px;
+    font-size : 1em;
+    color : #ffffff;
+    font-weight : 300;
+    font-family :system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow : 0.5px 0.5px 0.5px black;
+}
+.contact_container .contact_card .contact_content a{
+    position : relative;
+    display : inline-block;
+    padding : 8px 20px;
+    margin-top: 15px;
+    background-attachment: #fff;
+    background-color: #fff;
+    color : black;
+    border-radius : 20px;
+    font-weight : 500;
+    box-shadow : 0 5px 15px rgb(49, 46, 46)
+}
+
+
+@media screen and (max-width : 480px){
+    .contact_page{
+        margin-bottom : 0;
+    }
+}

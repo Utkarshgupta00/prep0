@@ -1,0 +1,99 @@
+
+
+#scroll_up_button{
+    outline : none;
+    border : none;
+    background : none;
+    font-size : 1.4rem;
+    color : rgba(59, 47, 47, 25);
+    position : fixed;
+    bottom : 50px;
+    right : 10px;
+    display : block;
+    z-index: 999;
+    padding : 5px;
+    border-radius : 7px;
+
+}
+#scroll_up_button:hover{
+    transform: rotate(360deg);
+}
+.whtsapp_btn{
+    width : 90%;
+    border-radius : 20px;
+    padding : 20px;
+    height : 50px;
+    overflow : hidden;
+    display : flex;
+    justify-content : space-between;
+    align-items: center;
+    color : white;
+    background : #075;
+    left : -80%;
+    position : fixed;
+    bottom : 70px;
+    z-index: 9999;
+    transition : 1s;
+}
+.whtsapp_btn i{
+    width : 5%;
+    margin-left : 20px;
+    font-size : 15px;
+}
+
+.whtsapp_btn:hover{
+    left : -10%;
+}
+#whtsapp-login{ 
+
+ margin-right : 10px;
+
+}
+
+#down_bar{
+    display : flex;
+    justify-content: space-between;
+    margin-left : 0px;
+    box-shadow : 1px 5px 5px rgb(0, 0, 0);
+    background : rgb(27, 25, 25);
+    width : 100%;
+    opacity : 5;
+    list-style: none;
+    position : fixed;
+    bottom : 0px;
+    padding : 8px 20px;
+    height : 55px;
+    z-index : 99999;
+
+}
+
+#home_button{
+outline : none;
+border : none;
+background : none;
+font-size : 1.5rem;
+z-index : 999999;
+opacity : 0.7;
+color : rgb(255, 255, 255);
+text-shadow : 1px 1px 2px rgb(0, 0, 0);
+border-radius : 10px;
+padding : 5px;
+border-radius : 2px;
+display : flex;
+justify-content: center;
+backdrop-filter: blur(25px);
+transition : 0.21s ease;
+}
+
+#home_button:hover{
+opacity : 1;
+text-shadow : none; 
+width : 30px;
+background : rgba(59, 47, 47, 0.25);
+box-shadow : 2px 2px 2px rgb(0, 0, 0); 
+text-shadow : 1.5px 1.5px 1.5px rgb(0, 0, 0);
+border-radius : 6px;
+transform : rotate(360deg);
+
+}
+

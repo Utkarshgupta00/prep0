@@ -1,0 +1,53 @@
+.roadmap_container{
+    background : rgb(255, 255, 255);
+    transition : 2s;
+    padding : 10px 0px;
+    transition : 0.3s ease;
+    
+}
+.roadmap_container:hover{
+    background : rgb(255, 255, 255);
+    box-shadow : -2px 0px 4px rgb(178, 168, 168);
+}
+
+.swiperstruct_slides{
+    border-radius : 15px;
+    overflow : hidden;
+    height : 190px;
+    font-size : 10px;
+    background : rgb(255, 255, 255);
+    margin : 15px;
+    margin-left : 2px;
+    text-align: center;
+    box-shadow : -5px 5px 4px rgb(163, 145, 145);
+    
+}
+.swiperstruct_slides img{
+    width : 100%;
+    height : 75%;
+}
+
+@media screen and (max-width:480px){
+    .roadmap_container{
+        background : rgb(60, 64, 64);
+        transition : 2s;
+        box-shadow : -2px 0px 41px rgb(0, 0, 0);
+        padding : 10px 0px;
+        transition : 0.3s ease;
+        
+    }
+    
+    .swiperstruct_slides{
+        background : rgb(255, 255, 255);
+        margin : 15px;
+        margin-left : 4px;
+        text-align: center;
+        box-shadow : -5px 5px 4px rgb(0, 0, 0);
+        
+    }
+
+    .swiperstruct_slides{
+        height : 110px;
+        font-size : 6px;
+    }
+}

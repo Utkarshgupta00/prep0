@@ -1,0 +1,55 @@
+.Handnotes_banner_img{
+    height : 200px;
+    width : 100%;
+}
+.Handnotes_banner_img img{
+    height : 100%;
+    width : 100%;
+}
+
+.HN_heading{
+    color : rgb(26, 7, 7);
+    height : 60px;
+    padding : 15px;
+    text-align: center;
+    font-size : 29px;
+    letter-spacing: 1px;
+    transition : 2s;
+    font-family :cursive;
+
+}
+.HN_heading:hover{
+    font-size : 30px;
+    letter-spacing : 19px;
+    height : 60px;
+    
+}
+.HN_banner{
+    height : 450px;
+}
+.HN_banner_img{
+    height : 100%;
+    width : 100%;
+}
+
+@media screen and (max-width:480px){
+    .HN_banner{
+        height : 200px;
+    }
+    .Handnotes_banner_img{
+        height : 120px;
+    }
+}
+
+
+
+@media screen and (max-width:480px){
+    .HN_heading{
+        height : 50px;
+        font-size : 20px;
+        letter-spacing: 8px;
+        background : black;
+        color: white;
+        padding : 10px;
+    }
+}

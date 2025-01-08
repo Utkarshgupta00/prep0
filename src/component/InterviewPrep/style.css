@@ -1,0 +1,304 @@
+
+.ip_heading{
+    color : rgb(3, 105, 125);
+    font-size : 50px;
+    padding : 20px;
+    text-align: center;
+    margin-bottom : 50px;
+
+}
+.ip_heading span{
+    color : rgb(0, 0, 0);
+    font-size : 60px;
+}
+.ip_banner{
+    display : flex;
+    justify-content: center;
+}
+.ip_banner_img{
+    height : 70%;
+    width : 70%;
+}
+.ip_ques_banner{
+    height : 400px;
+    overflow-y:auto;
+    width : 100%;
+}
+.ip_ques_banner img{
+    margin:0px;
+    height : 100%;
+    width : 100%;
+}
+
+.common_job_ques{
+    margin : 50px;
+    height : 100%;
+    width : 100%;
+}
+.interview_content_boxes{
+
+    text-align: center;
+}
+.in_heading{
+    margin : 20px;
+    padding : 20px;
+    box-shadow : 2px 2px 12px rgb(205, 192, 192);
+    font-family :Arial, Helvetica, sans-serif;
+    border-radius : 25px;
+    background : rgb(255, 255, 255);
+    color : rgb(0, 0, 0);
+}
+
+
+.interview_main_box{
+    height : auto;
+    background : rgb(255, 255, 255);
+    width : 100%;
+}
+.interview_box{
+height : 100%;
+width : 100%;
+}
+
+.interview_slide{
+    margin : 1px 0;
+    width : 180px;
+    height : 180px;
+    display : flex;
+    justify-content : center;
+    align-items: center;
+    overflow : hidden;
+    transition : 1s ease;
+}
+
+.interview_img{
+
+    height : 70%;
+    width : 70%;
+}
+.interview_slide{
+    margin : 15px 0;
+    width : 100px;
+    height : 170px;
+    border-radius : 10px;
+    padding : 10px;
+    transition : 0.2s ease;
+    display : block;
+
+
+}
+.interview_slide:hover{
+    box-shadow : 3px 3px 15px rgb(206, 181, 181);
+    transform : rotate(350deg);
+}
+
+.interview_img{
+    height : 80%;
+    width : 100%;
+}
+.interview_slide_title{
+    font-size : 9px;
+    text-align: center;
+
+}
+
+@media screen and (max-width:480px){
+
+
+    .ip_heading{
+        background : rgb(0, 0, 0);
+        color : rgb(255, 255, 255);
+        font-size : 25px;
+        padding : 10px;
+        box-shadow : 2px -2px 12px rgb(171, 154, 154);
+        margin-bottom : 0px;
+    }
+    .ip_heading span{
+        color : yellow;
+        font-size : 30px;
+    }
+    .ip_banner{
+        margin : 40px;
+        height : 300px;
+        background-image:url();
+        background-size : cover;
+        background-position : center;
+    }
+    .ip_banner_img{
+        margin-left : 20px;
+        height : 100%;
+        width : 80%;
+    }
+    .ip_ques_banner{
+    
+        height : 250px;
+        overflow-y:auto;
+        width : 100%;
+    }
+    .ip_ques_banner img{
+        margin:0px;
+        height : 100%;
+        width : 100%;
+    }
+    .common_job_banner{
+        height : 90%;
+        margin : 0px 0px;
+    
+    }
+    .common_job_ques{
+        margin : 0px;
+        height : 100%;
+        width : 100%;
+        margin-bottom : 10px;
+    }
+    .interview_content_boxes{
+    
+        text-align: center;
+    }
+    .in_heading{
+        margin : 20px;
+        padding : 10px;
+        box-shadow : 2px 2px 12px rgb(228, 222, 222);
+        font-family :Arial, Helvetica, sans-serif;
+        border-radius : 10px;
+        background : rgb(0, 0, 0);
+        color : rgb(255, 255, 255);
+    }
+    
+    
+    .interview_main_box{
+        height : 130px;
+        width : 100%;    
+        background : transparent;
+    }
+    .interview_box{
+    height : 100%;
+    width : 100%;
+
+    }
+    
+    .interview_slide{
+        margin : 15px 0;
+        width : 100px;
+        height : 120px;
+        border-radius : 10px;
+        padding : 10px;
+        transition : 0.2s ease;
+        display : block;
+
+
+    }
+    .interview_slide:hover{
+        box-shadow : 3px 3px 15px rgb(206, 181, 181);
+        transform : rotate(180deg);
+    }
+
+    .interview_img{
+        height : 80%;
+        width : 100%;
+    }
+    .interview_slide_title{
+        font-size : 9px;
+        text-align: center;
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.interview_dynamic_questions{
+    height : 30px;
+    background : black;
+    align-items:center;
+}
+
+
+
+.interview_dynamic_text{
+    background : black;
+    height : 20px;
+    line-height : 20px;
+    overflow : hidden;
+
+}
+.interview_dynamic_text k{
+    color : yellow;
+}
+.interview_dynamic_text li{
+    position: relative;
+    top : 0;
+    animation : glide 9s steps(6) infinite;
+}
+@keyframes glide {
+    100%{
+        top : -130px
+    }
+    
+}
+span k{
+    color : rgb(2, 168, 223);
+}
+.interview_dynamic_text ul{
+    margin : 5px;
+    list-style: none;
+    font-size : 10px;
+    font-weight : bolder;
+
+}
+
+.interview_dynamic_text li span{
+    position : relative;
+    left : 13px;
+    color : rgb(255, 255, 255);
+    font-family :Georgia, 'Times New Roman', Times, serif;
+}
+
+.interview_dynamic_text li span::after{
+    content:" ";
+    position : absolute;
+    background : rgb(0, 0, 0);
+    text-shadow : 1px 1px 2px black;
+    margin : 2px;
+    overflow : hidden;
+    height : 1055px;
+    width : 100%;
+    left : 0;
+    animation: typing 1.5s steps(45) infinite;
+}
+
+@keyframes typing {
+    100%{
+        left : 100%;
+        margin : 0 -35px 0 35px;
+    }
+}
+
+
+
+
+
+
+
+
+.top_companies_interview{
+    overflow-x : scroll;
+    width : 100%;
+    display : flex;
+    height : 500px;
+    background : url(../../../public/image/Interview/top_companies_background.png);
+    background-size : 100% 100%;
+    background-repeat: no-repeat;
+}

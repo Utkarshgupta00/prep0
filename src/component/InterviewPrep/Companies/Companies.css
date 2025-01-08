@@ -1,0 +1,19 @@
+
+.companies_data{
+    height : 800px;
+
+    overflow-y: scroll;
+    background : url(../../../../public/image/Interview/interview_process_background.png);
+    background-size : 100% 100%;
+}
+.companies_data h1{
+    color : white;
+    position : fixed;
+
+    font-size : 44px;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    opacity : 0.6;
+    margin : 15px;   
+
+}

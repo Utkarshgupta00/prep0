@@ -1,0 +1,136 @@
+.information_heading{
+    text-align: center;
+    padding : 10px 0px;
+    font-size : 20px;
+
+}
+.information_banner{
+    height : 300px;
+    background-image : url(../../public/image/Information/career_paths.webp);
+    background-size : 100% 100%;
+    background-repeat: no-repeat;
+    margin : 20px 0;
+
+}
+    
+.information{
+    display : flex;
+    width:100%;
+    height:600px;
+    background:transparent;
+    margin : 50px 0px;
+}
+.information_dropbox{
+    width : 50%;
+    background : transparent;
+    color : rgb(0, 0, 0);
+    overflow-y:scroll;
+    
+
+}
+
+    .information_content_type{
+        list-style: none;
+    }
+    .information_content_type a{
+        color : black;
+    }
+    .type_name{
+        font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight : bold;
+        text-align : center;
+        font-size : 12px;
+        padding : 29px;
+        cursor : pointer;
+        width : 100%;
+        height : 30px;
+        box-shadow : 2px 2px 4px rgb(96, 92, 92);
+        transition : 0.1s;
+    }
+    .type_name:hover{
+        background : rgb(0, 0, 0);
+        color : white;
+    }
+    .information_img{
+        width:50%;
+        height : 100%;
+        overflow: hidden;
+        padding-left : 10px;
+        
+    }
+
+
+@media screen and (max-width:480px){
+
+
+    .information_heading{
+        font-size : 20px;
+        background :rgb(0, 0, 0);
+        color :rgb(255, 255, 255);
+    
+    }
+    .information_banner{
+        margin : 0px;
+        height : 250px;
+
+    
+    }
+    
+    
+    .information{
+        display : flex;
+        width:100%;
+        height:400px;
+        background:transparent;
+        margin : 0px;
+    }
+    .information_dropbox{
+        width : 50%;
+        background : transparent;
+        color : rgb(0, 0, 0);
+        overflow-y:scroll;
+        
+    }
+    .information_content_type{
+        list-style: none;
+    }
+    .information_content_type a{
+        color : black;
+    }
+    .type_name{
+        font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight : bold;
+        text-align : center;
+        font-size : 9px;
+        padding : 20px;
+        cursor : pointer;
+        width : 100%;
+        height : 30px;
+        box-shadow : 2px 2px 4px rgb(96, 92, 92);
+    }
+    .type_name:hover{
+        background : rgb(0, 0, 0);
+        color : white;
+    }
+    .information_img{
+        width:50%;
+        height : 100%;
+        overflow: hidden;        
+    }
+
+    .remove_back_shadow{
+        box-shadow : 0;
+        width : 100%;
+        height : 100%;
+
+    }
+    
+
+
+
+
+}
+
+
+
+

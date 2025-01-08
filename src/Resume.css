@@ -1,0 +1,223 @@
+.resume_container{
+    height : auto;
+    background : black;
+    background-size : cover;
+}
+
+.resume_heading{
+    text-align : center;
+    background : rgb(1, 1, 1);
+    color : white;
+    font-size : 20px;
+    padding : 15px;
+    box-shadow : 1px -1px 10px white;
+}
+.resume_container_heading{
+
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color : rgb(62, 61, 61);
+    text-shadow : 1px 1px 1px black;
+    font-size : 50px;
+    background : rgb(247, 246, 246);
+    text-align : center;
+    position : relative;
+    padding : 50px 0px;
+    top : 20px;
+    margin-bottom : 10px;
+}
+.resume_banner{
+    margin-top : 40px;
+    height : 300px;
+    width : 100%;
+    overflow : hidden;
+    display : flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.resume_banner img{
+    height : 70%;
+    width : 70%;
+}
+.resume_about_section{
+    color : rgb(45, 43, 43);
+    text-shadow : 0.5px 0.5px 1px rgb(0, 0, 0);
+    text-align: center;
+    font-size : 32px;
+    width : 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background : rgb(231, 238, 238);
+    height : 200px;
+    padding : 40px 0px;
+
+}
+
+
+.resume_hero_banner{
+    height : 400px;
+    background : url(https://drive.google.com/uc?export=download&id=1VuajT9UqkK3upE_maySBpTMvBxcmwkIP);
+    background-size : 100% 100%;
+    
+
+}
+
+.resume_main_sign_box{
+    color : rgb(0, 0, 0);
+    height : auto;
+    background : transparent;
+   
+}
+
+
+.resume_sign_page{
+    
+    background : rgb(38, 35, 35);
+    transition : 1s ease;
+}
+
+
+.resume_form_box{
+    height : auto;
+}
+.resume_form_title{
+    text-align : center;
+    margin : 30px;
+    color : rgb(255, 255, 255);
+    font-size : 30px;
+    padding : 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.resume_input_field{
+    outline : none;
+    border : 0px;
+    color : rgb(255, 255, 255);
+    margin : 15px;
+    margin-left : 40px;
+    width : 70%;
+    background : transparent;    
+    box-shadow : 3px 3px 3px rgb(0, 0, 0);
+    border-radius : 20px;
+    padding : 23px;
+    transition : 1s ease;
+    color : rgb(255, 255, 255);
+    text-shadow : .7px .7px 1px rgb(0, 0, 0);
+}
+.resume_input_field:hover{
+    background : transparent;
+    color : rgb(255, 255, 255);
+}
+
+.resume_textarea{
+    margin-left : 40px;
+    min-height : 100px;
+    min-width : 70%;
+    max-width : 250px;
+    max-height : 200px;
+}
+.resume_radio{
+    margin : 40px;
+}
+.radio_input{
+    margin : 8px;
+    margin-top : 15px;
+}
+.reg_button{
+    display : block;
+    outline : none;
+
+}
+.form_submit{
+    margin : 20px;
+    width : 150px;
+    padding : 10px;
+    border : 0px;
+    font-weight: bold;
+    color : rgb(255, 255, 255);
+    background : rgb(35, 34, 34);
+    box-shadow : 2px 2px 3px black;
+    cursor : pointer;
+    transition: 0.2s;
+}
+.form_submit:hover{
+    background : rgb(255, 255, 255);
+    color : rgb(0, 0, 0);
+}
+
+.resume_form_img{
+    margin: auto;
+    margin-left : 10%;
+    width : 80%;
+    height : 200px;
+}
+
+@media screen and (max-width:480px){
+    .resume_container{
+        height : auto;
+    }
+}
+
+.resume_important_information{
+
+    height : auto;
+    background : rgb(224, 237, 234);
+    padding : 70px;
+}
+.resume_important_information h3{
+    margin : 20px;
+    color :rgb(35, 34, 34);
+}
+.resume_important_information p{
+    
+    text-align: justify;
+    margin-top : 2px;
+    font-size : 15px;
+
+}
+
+.resume_slide_box{
+    margin-top : 20px;
+    height : 500px;
+    width : 100%;
+
+    
+}
+.resume_slide{
+    height : 500px;
+    width : 100%;
+    overflow : hidden;
+    display : flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.resume_slider_img{
+    height : 100%;
+    width : 95%;
+}
+.select_resume{
+    font-size : 30px;
+    font-family :'Times New Roman', Times, serif;
+    font-weight: 700;
+    padding : 30px;
+}
+.resume_benefits{
+    background : #292329;
+    overflow-x : scroll;
+    backdrop-filter: blur(2px);
+    display: flex;
+    height : 500px;
+    width : 100%;
+}
+.resume_card_swiper{
+    height : 300px;
+    display: flex;
+    justify-content: center;
+}
+.resume_card_swi{
+    height : 100%;
+}
+.kprice{
+    font-size : 25px;
+    color : yellow;
+    text-shadow : 1.3px 1.3px 1px black;
+}

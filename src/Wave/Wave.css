@@ -1,0 +1,46 @@
+section{
+    position: relative;
+    width: 100%;
+    height : 100px;
+    background : #ffffff;
+    overflow : hidden;
+}
+section .wave{
+    position: absolute;
+    top : -100;
+    bottom : 0;
+    left : 0;
+    height : 90px;
+    width : 100%;
+    background-repeat: no-repeat;
+
+}
+section .wave.wave1{    
+    background : url(https://drive.google.com/uc?export=download&id=1TRRHrU2uDiz6r1oDAqGGNTOwmC7R8hBb);
+    background-size: 1000px 100px;
+    animation : animate 3s linear infinite;
+    opacity : 1;
+    z-index: 1000;
+}
+section .wave.wave2{    
+    background : url(https://drive.google.com/uc?export=download&id=1TRRHrU2uDiz6r1oDAqGGNTOwmC7R8hBb);
+    background-size: 1000px 100px;
+    animation : animate 2.5s linear infinite;
+    opacity : 0.7;
+    z-index: 9000;
+}
+
+@keyframes animate 
+{
+    0%
+    {
+        background-position-x : 0;
+
+    }
+    100%
+    {
+        background-position-x : 1000px;
+        
+    }
+    
+}

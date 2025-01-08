@@ -1,0 +1,21 @@
+.navbar_pos{
+    height : 60px;
+    background : black;
+}
+.view{
+    display : flex;
+    justify-content: center;
+}
+.laptop_view{
+
+    width : 60%;
+    scroll-behavior: smooth;
+}
+@media screen and (max-width:480px){
+    .laptop_view{
+        margin-top : 0px;
+        width : 100%;
+        scroll-behavior: smooth;
+    }
+}
+

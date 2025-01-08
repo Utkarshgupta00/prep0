@@ -1,0 +1,178 @@
+*{
+    margin : 0px;
+    padding : 0px;
+
+}
+
+.header{
+    width : 100%;
+    overflow : hidden;
+}
+.navlinks{
+    color : white;
+    text-decoration: none;
+}
+
+.sp_bw{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.navbar{
+    position : fixed;
+    z-index: 9999999;
+    width : 100%;
+    position : fixed;
+    height : 60px;
+    background : rgb(0, 0, 0);
+    box-shadow : 2px 2px 2px rgba(20,20,20);
+
+}
+.navbar_logo{
+    color : white;
+    font-size : 30px;
+    margin-left : 15px;
+    font-family: Georgia, 'Times New Roman',  serif;
+}
+.navbar_logo span{
+    font-size : 15px;
+    color : cyan;
+    font-weight: bolder;
+    font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar_items{
+    font-size : 16px;
+    color : white;
+    margin-right : 15px;
+    list-style: none;
+    display : flex;
+    gap : 2rem;
+    cursor : pointer;
+    transition: 2s;
+}
+.navbar_items :hover{
+    font-size : 20px;
+}
+
+.header_navlinks{
+    color : white;
+    text-decoration: none;
+    font-size : 12px;
+    transition : 1s ease;
+}
+.ulcloser{
+    display : none;
+}
+.ulpagelogo{
+    left : 10px;
+}
+.header_navlinks:hover,header_navlinks.active{
+    color : cyan;
+}
+.header_medialinks{
+    display : none;
+}
+
+#click{
+    display :none;
+}
+.zmdic{
+    
+    color : white;
+    cursor : pointer;
+    display : none;
+}
+.zmdi-facebook{
+    color : blue;
+}
+    .zmdi-instagram{
+        color : pink;
+    }
+    .zmdi-linkedin{
+        color : skyblue;
+    }
+    .zmdi-email{
+        color:red;
+    }
+
+@media screen and (max-width : 480px){
+
+
+    .navbar_logo{
+        margin-left : 10px;
+        font-size : 20px;
+        
+    }
+    .ulbox{
+        margin : 20px 5px;
+        display : flex;
+        justify-content : space-between;
+    }
+    .navbar_names ul{
+        position : fixed;
+        left : -100%;
+        top : 0px;
+        background : black;
+        height : 100vh;
+        overflow-y : scroll;
+        width : 50%;
+        display : block;
+        text-align: center;
+        border-radius : 20px;
+        transition : 0.1s;
+       
+        
+    }
+    .ulcloser{
+        display : block;
+        font-size : 25px;
+        position : relative;
+        right : 20px;
+    }
+
+    #click:checked ~ .navbar_names ul{
+        left : 0px;
+    }
+    .header_navlinks{
+        display : block;
+        margin : 35px 0px;
+        font-size : 15px;
+        color : white;
+        font-family :Georgia, 'Times New Roman', Times, serif;
+        transition : 1s ease-in-out;
+    }
+    .header_navlinks:hover,header_navlinks.active{
+        color : cyan;
+        font-size : 15px;
+    }
+
+    .zmdic{
+        margin-left : 250px;
+        display:flex;
+        font-size : 30px;
+    }
+
+    .header_medialinks{
+        display : flex;
+        margin-left : 0px;
+    }
+    .header_medialinks i{
+        display : block;
+        margin-top : 60px;
+        margin-left : 15px;
+        font-size : 20px;
+        margin-top : 10px;
+        transition : all 0.5s ease;
+    }
+    .header_medialinks i:hover{
+        font-size : 15px;
+    }
+
+
+
+
+
+
+}

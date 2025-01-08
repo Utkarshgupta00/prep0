@@ -1,0 +1,56 @@
+.daily_quote{
+    margin : 20px 0px;
+    display : flex;
+    justify-content : center;
+    font-size : 17px;
+    font-family:'Times New Roman', Times, serif;
+    width : 100%;
+    background-image : url(../../../public/image/quote.webp);
+    background-size : 100% 100%;
+    background-repeat : no-repeat;
+    min-height : 300px;
+    height : auto;
+    background-position : center;
+    transition : 1s;
+}
+
+.quote_box{
+    margin : auto; 
+    padding : 70px 0px;
+    display : flex;
+    justify-content: center;
+    color : rgb(11, 4, 4);
+    opacity : 90%;
+    font-family :Arial, Helvetica, sans-serif;
+    width : 50%;
+}
+@media screen and (max-width : 480px){
+
+
+    .daily_quote{
+        margin : 20px 0px;
+        display : flex;
+        justify-content : center;
+        font-size : 10px;
+        letter-spacing: 0.9px;
+        width : 100%;
+        min-height : 50px;
+        background-size : 100% 100%;
+        height : auto;
+    }
+    
+    .quote_box{
+        margin : auto; 
+        padding : 70px 0px;
+        display : flex;
+        justify-content: center;
+        color : rgb(53, 41, 41);
+        opacity : 90%;
+        font-family :Arial, Helvetica, sans-serif;
+        height : auto;
+        width : 50%;
+    }
+    .daily_quote{
+        font-size : 10px;
+    }
+}

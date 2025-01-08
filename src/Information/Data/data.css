@@ -1,0 +1,61 @@
+.data_page{
+    height : 870px;
+    background : rgb(255, 255, 255);
+    background-image : url(../../../public/image/Information/page.webp);
+    background-size : 100% 100%;
+    background-repeat : no-repeat;
+    overflow : hidden;
+
+}
+.data_page:hover{
+    height : auto;
+}
+
+.inside_data_page{
+    height: 550px;
+    width : 80%;
+    background : transparent;
+    position : relative;
+    overflow : hidden;
+    margin : 20% 10%;
+    margin-bottom : 20%;
+    transition : 2s ease;
+
+
+}
+.data_page:hover .inside_data_page{
+    margin-top : 30%;
+    height : auto;
+    margin-bottom : 40%;
+}
+.data_page:hover .hover_gayab{
+    display : none;
+}
+.inside_data_page h1{
+    margin : 10px 0px;
+    font-family : 'Courier New', Courier, monospace;
+    color : rgb(94, 39, 39);
+    font-size : 60px;
+    text-align: center;
+    text-shadow :1px 1px 1px rgb(31, 30, 30);
+}
+.inside_data_page h2{
+    margin : 0px 0px;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size : 20px;
+    color : rgb(119, 35, 35);
+    text-shadow :0.5px 0.5px 1px rgb(31, 30, 30);
+}
+.inside_data_page p{
+    color : rgb(57, 2, 2);
+    text-shadow :0.4px 0.4px 1px rgb(66, 41, 41);
+}
+@media screen and (max-width:480px){
+    .inside_data_page{
+        margin-top : 30%;
+    }
+    .data_page:hover .inside_data_page{
+        margin-top : 50%;
+        margin-bottom : 60%;
+    }
+}

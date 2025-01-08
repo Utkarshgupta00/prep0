@@ -1,0 +1,23 @@
+.Footera_slide_box{
+    margin-top : 20px;
+    
+}
+
+.Footera_slide{
+    display : flex;
+    justify-content: center;
+    margin-left : auto;
+    height : 600px;
+    
+    
+}
+.Footera_img{
+    height : 100%;
+    
+}
+
+@media screen and (max-width:480px){
+    .Footera_slide{
+        height : 400px;
+    }
+}
